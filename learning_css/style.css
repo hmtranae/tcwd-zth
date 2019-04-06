@@ -1,9 +1,13 @@
+* {
+    text-align: right;
+}
+
 body {
     background-image: url('https://cdn1.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg');
     background-size: cover;
 }
 
-h2   {
+h2 + p:hover {
     color: red;
     text-align: center;
     border: 5px solid rgba(255, 176, 170, 0.5);
@@ -21,4 +25,20 @@ p {
 li {
     list-style: none;
     display: inline;
+}
+
+.webtext:first-child {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.2);
 }
